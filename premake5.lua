@@ -36,7 +36,8 @@ project "glfw"
 		}
 
 		defines 
-		{ 
+		{
+			"_CRT_SECURE_NO_WARNINGS",
 			"_GLFW_WIN32"
 		}
 
